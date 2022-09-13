@@ -37,12 +37,16 @@ h1{
    BODY
 --------*/
 
-.container_button{
+.container{
     max-width: 900px;
-    padding: 15px 50px;
     margin: auto;
     background-color: white;
     border-radius: 10px;
+    margin-bottom: 4px;
+}
+
+.container-button{
+    padding: 15px 50px;
 }
 
 .button{
@@ -51,14 +55,14 @@ h1{
     background: none;
 }
 
-.button_task{
+.button-task{
     color: white;
     background-color: #45ABEA;
     padding: 10px 8px;
     border-radius: 10px;
 }
 
-.button_section{
+.button-section{
     color: lightgray;
     border: solid 1px lightgray;
     padding: 9px 12px;
@@ -66,3 +70,42 @@ h1{
 
 }
 
+.container-main{
+    padding: 40px 50px;
+
+}
+
+.options{
+    margin-top: 10px;
+}
+
+.circle{
+    vertical-align: middle;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.circle-check{
+    color: green;
+    border-color: green;
+}
+
+.circle-cross{
+    color: red;
+    border-color: red;
+}
+
+.tag{
+    color: white;
+    padding: 4px 8px;
+    border-radius: 14px;
+}
+
+.tag-cyan{
+       background-color: #45ABEA;
+}
